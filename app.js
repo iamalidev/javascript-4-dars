@@ -52,67 +52,28 @@ let b = prompt("30 / 3 = ?");
 
 const math = function (q, a, k, b) {
     if (q == 20) {
-        alert("True")
+        alert("True  10 + 10 = 20")
     }
-
-    else if (q < 20) {
-        alert("False")
-    }
-
-    else if (q > 20) {
-        alert("False")
-    }
-
-    else if ("") {
-        alert("Iltimos javobingizni yozing")
-    }
-
-    else if (a == 10) {
-        alert("True")
-    }
-
-    else if (a < 10) {
-        alert("False")
-    }
-
-    else if (a > 10) {
-        alert("False")
-    }
-
-    else if ("") {
-        alert("Iltimos javobingizni yozing")
-    }
-
-    else if (k == 25) {
-        alert("True")
-    }
-
-    else if (k < 25) {
-        alert("False")
-    }
-
-    else if (k > 25) {
-        alert("False")
-    }
-
-    else if ("") {
-        alert("Iltimos javobingizni yozing")
-    }
-
-    else if (b == 10) {
-        alert("True")
-    }
-
-    else if (b < 10) {
-        alert("False")
-    }
-
-    else if (b > 10) {
-        alert("False")
-    }
-
     else {
-        alert("Iltimos javobingizni yozing")
+        alert("False  10 + 10 = 20")
+    }
+    if (a == 10) {
+        alert("True  20 - 10 = 10")
+    }
+    else {
+        alert("False  20 - 10 = 10")
+    }
+    if (k == 25) {
+        alert("True  5 * 5 = 25")
+    }
+    else {
+        alert("False  5 * 5 = 25")
+    }
+    if (b == 10) {
+        alert("True  30 / 3 = 10")
+    }
+    else {
+        alert("False  30 / 3 = 10")
     }
 }
 
